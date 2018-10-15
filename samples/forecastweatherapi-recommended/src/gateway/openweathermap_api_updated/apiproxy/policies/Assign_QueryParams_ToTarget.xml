@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign_QueryParams_ToTarget">
+    <DisplayName>Assign_QueryParams_ToTarget</DisplayName>
+    <Set>
+        <Headers>
+            <Header name="ENV">TEST</Header>
+        </Headers>
+        <QueryParams>
+            <!-- QueryParam name="q">{q}</QueryParam>
+            <QueryParam name="APPID">{LocationID}</QueryParam -->
+            <!-- OR -->
+            <QueryParam name="q">{request.queryparam.q}</QueryParam>
+            <QueryParam name="APPID">{request.queryparam.appid}</QueryParam>
+        </QueryParams>
+        <FormParams/>
+        <Verb/>
+        <Path/>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

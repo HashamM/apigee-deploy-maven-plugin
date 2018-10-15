@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <!-- Fault Handling -->
+    <FaultRules>
+        <FaultRule name="invalid_appid_rule">
+            <Step>
+                <Name>invalid-appid-message</Name>
+            </Step>
+            <Condition>(response.status.code = 401)</Condition>
+        </FaultRule>
+    </FaultRules>
+    <DefaultFaultRule name="df-rule"/>
+    <!-- Fault Handling End-->
+    <Flows/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <HTTPTargetConnection>
+        <URL>https://api.openweathermap.org/data/2.5/weather</URL>
+    </HTTPTargetConnection>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+</TargetEndpoint>

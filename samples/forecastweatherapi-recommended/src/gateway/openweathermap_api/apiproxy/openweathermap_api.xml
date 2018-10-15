@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="openweathermap_api">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedBy>Hasham Mohammad</CreatedBy>
+    <Description>Recommended Open Weather Map API</Description>
+    <DisplayName>openweathermap_api</DisplayName>
+</APIProxy>

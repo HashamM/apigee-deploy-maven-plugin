@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract_APPID">
+    <DisplayName>Extract_QueryParams</DisplayName>
+    <QueryParam name="Openweather_APPID">
+        <Pattern>{APPID}</Pattern>
+    </QueryParam>
+    <QueryParam name="LocationID">
+        <Pattern>{q}</Pattern>
+    </QueryParam>
+    <Source>request</Source>
+</ExtractVariables>

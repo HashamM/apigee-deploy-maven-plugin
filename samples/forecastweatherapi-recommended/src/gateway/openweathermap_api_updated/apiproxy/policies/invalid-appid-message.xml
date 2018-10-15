@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="invalid-appid-message">
+    <DisplayName>Invalid AppID Message</DisplayName>
+    <Add>
+        <Headers>
+            <Header name="invalidAppid">Invalid AppID! Call the cops!</Header>
+        </Headers>
+    </Add>
+    <Set>
+        <Payload contentType="application/json">{"Citizen":"Where's your API key? I don't see it as a query parameter"}</Payload>
+        <StatusCode>911</StatusCode>
+        <ReasonPhrase>Rejected by AppID Kirak Services</ReasonPhrase>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="openweathermap_api">
+    <!--<Basepaths>/weather</Basepaths>-->
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <!--<CreatedAt>1539551351662</CreatedAt>-->
+    <CreatedBy>Hasham Mohammad</CreatedBy>
+    <Description>Recommended Open Weather Map API</Description>
+    <DisplayName>openweathermap_api</DisplayName>
+    <!--<LastModifiedAt>1539629406369</LastModifiedAt>-->
+    <!--<LastModifiedBy>hasham.mohammad@gmail.com</LastModifiedBy>-->
+    <!--<ManifestVersion>SHA-512:984eed0c746e70f203048220ee48d7a23ad397cbb1dc332c22d9b1a6b99ebf201130846eed956c420b60b9d47727fff0ce7f675896fe2f0dacf0e63070f092c8</ManifestVersion>-->
+    <!--<Policies>-->
+        <!--<Policy>Assign_QueryParams_ToTarget</Policy>-->
+        <!--<Policy>Extract_APPID</Policy>-->
+        <!--<Policy>invalid-appid-message</Policy>-->
+    <!--</Policies>-->
+    <!--<ProxyEndpoints>-->
+        <!--<ProxyEndpoint>default</ProxyEndpoint>-->
+    <!--</ProxyEndpoints>-->
+    <!--<Resources/>-->
+    <!--<Spec></Spec>-->
+    <!--<TargetServers/>-->
+    <!--<TargetEndpoints>-->
+        <!--<TargetEndpoint>default</TargetEndpoint>-->
+    <!--</TargetEndpoints>-->
+</APIProxy>
